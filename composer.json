@@ -1,0 +1,22 @@
+{
+    "name": "kentleigh/book-scanner",
+    "minimum-stability": "dev",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kentleigh English",
+            "email": "kentleigh@ikengainnovations.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "josegonzalez/dotenv": "dev-master",
+        "monolog/monolog": "^2.0@dev",
+        "thiagoalessio/tesseract_ocr": "dev-master"
+    }
+}
